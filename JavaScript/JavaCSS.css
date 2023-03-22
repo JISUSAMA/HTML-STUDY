@@ -1,0 +1,50 @@
+
+#Grid
+{
+display: grid;
+grid-template-columns: 150px 1fr;
+padding-top: 30px;
+}
+
+.ScriptTag_ol{
+ font-size: 20px;   
+ border-right: 2px solid gray;
+}
+
+.ScriptTag_source h2{
+    font-size: 23px;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+margin: 2px;
+padding-bottom: 10px;
+border-bottom: 1px solid black;
+}
+.ScriptTag_source 
+{
+    display:grid;
+    padding-left: 20px;
+}
+.script{
+    padding-top: 30px;   
+   }
+h2{
+    font-size: 45px;
+    font-style: italic;
+    text-decoration: underline;
+    color:blue; 
+ }
+ @media (max-width:516px) 
+ {
+    #Grid{
+        display: block;
+    }
+    .script{
+        padding-top: 10px;
+       
+    }
+    .ScriptTag_source h2{
+        border-bottom: 1px dashed black;
+    }
+ }
+
