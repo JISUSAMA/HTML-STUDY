@@ -9,10 +9,48 @@
 </head>
 
 <body>
+
     <h2>WEB</h2>
     <div id="SkinChangeBtn">
-        <input type="button" value="다크모드" onclick="alert('hi')">
-        <input type="button" value="낮  모드" onclick="">
+        <!-- <input type="button" value="다크모드" onclick="document.querySelector('body').style.backgroundColor='black';
+                document.querySelector('body').style.color='white';">
+        <input type="button" value="낮  모드" onclick="document.querySelector('body').style.backgroundColor='white';
+        document.querySelector('body').style.color='black';"> -->
+
+        <input type="button" value="다크 모드" var name='day' onclick=" 
+       var target =   document.querySelector('body');
+        if(name === 'night')
+        {
+            name = 'day';
+            this.value = '다크 모드';
+            target.style.backgroundColor='white';
+            target.style.color='black' ;
+            var h2_list = document.querySelectorAll('h2');
+            var i =0;
+            while(i<h2_list.length)
+            {
+                h2_list[i].style.color = 'powderblue';
+                i=i+1;
+            }
+        }
+        else if(name === 'day')
+        {
+            name = 'night';
+            this.value = '낮 모드';
+            target.style.backgroundColor='black';
+        target.style.color='white';
+
+        var h2_list = document.querySelectorAll('h2');
+    
+
+        var i =0;
+            while(i<h2_list.length)
+            {
+                h2_list[i].style.color = 'red';
+            i=i+1;
+            }
+        }">
+
     </div>
     <div id="Grid">
         <div class="ScriptTag_ol">
@@ -24,13 +62,15 @@
         </div>
         <div class="ScriptTag_source">
             <div>
-                <h2>JavaScript란?</h2>
+                <h2><span class="js">JavaScript란?</span></h2>
             </div>
-          <div class="script">
-            JavaScript (JS)는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다. 웹 페이지를 위한 스크립트 언어로 잘 알려져 있지만,
-            Node.js, Apache CouchDB, Adobe Acrobat처럼 많은 비 브라우저 환경에서도 사용하고 있습니다. JavaScript는 프로토타입 기반, 다중 패러다임, 단일 스레드
-            (en-US), 동적 (en-US) 언어로, 객체지향형, 명령형, 선언형(함수형 프로그래밍 등) 스타일을 지원합니다.
-          </div>
+            <div class="script">
+                <span class="js">JavaScript</span> (JS)는 가벼운, 인터프리터 혹은 just-in-time 컴파일 프로그래밍 언어로, 일급 함수를 지원합니다. 웹 페이지를
+                위한 스크립트 언어로 잘 알려져 있지만,
+                Node.js, Apache CouchDB, Adobe Acrobat처럼 많은 비 브라우저 환경에서도 사용하고 있습니다. <span class="js">JavaScript</span>는
+                프로토타입 기반, 다중 패러다임, 단일 스레드
+                (en-US), 동적 (en-US) 언어로, 객체지향형, 명령형, 선언형(함수형 프로그래밍 등) 스타일을 지원합니다.
+            </div>
         </div>
     </div>
 
