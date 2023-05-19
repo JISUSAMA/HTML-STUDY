@@ -1,5 +1,39 @@
-.BaseField{
-    width: auto;
-    height: 500px;
+.BaseField {
+    width: 1000px;
+    height: 150px;
     background-color: aquamarine;
+    margin: 0px;
 }
+.left_Side {
+    width: 800px;
+    height: 150px;
+    background-color: rgb(255, 177, 104);
+    float: left;
+}
+.right_Side {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(255, 255, 49);
+    float: left;
+}
+
+.left_title {
+    background-color: rgb(133, 68, 255);
+    width: 800px;
+    height: 65px;
+    float: left;
+}
+.left_subtitle {
+    background-color: rgb(27, 238, 37);
+    width: 800px;
+    height: 85px;
+    float: left;
+}
+
+
+.profile{
+    float: left;
+    width: 65px;
+    height: 65px;
+}
+
