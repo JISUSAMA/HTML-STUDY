@@ -1,39 +1,49 @@
 .BaseField {
     width: 1000px;
     height: 150px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin: 0px;
 }
 .left_Side {
     width: 800px;
     height: 150px;
-    background-color: rgb(255, 177, 104);
+    /* background-color: rgb(255, 177, 104); */
     float: left;
 }
 .right_Side {
     width: 200px;
     height: 150px;
-    background-color: rgb(255, 255, 49);
+    /* background-color: rgb(255, 255, 49); */
     float: left;
 }
 
 .left_title {
-    background-color: rgb(133, 68, 255);
+    /* background-color: rgb(133, 68, 255); */
     width: 800px;
     height: 65px;
     float: left;
 }
 .left_subtitle {
-    background-color: rgb(27, 238, 37);
+    /* background-color: rgb(27, 238, 37); */
     width: 800px;
     height: 85px;
     float: left;
 }
-
-
 .profile{
     float: left;
     width: 65px;
     height: 65px;
 }
 
+/* menu_bar 안에있는 모든 li 태그를 의미한다. */
+.menu_bar li{
+display: inline;
+background-color: rgb(105, 241, 168);
+padding: 10px;
+}
+.menu_bar a{
+    font-size: 16px;
+text-decoration-line: none;
+text-decoration-color: black;
+color:inherit;
+}
