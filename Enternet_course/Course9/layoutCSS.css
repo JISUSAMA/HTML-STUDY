@@ -1,15 +1,15 @@
-.main-background{
+.main-background {
     width: 100%;
     height: 500px;
     background-image:url(GREEN_.jpg);
     background-size: 100%;
-    
+
     padding: 1px;
     /*500px에 맞지 않을 경우 
     cover 배경이 잘려도 상관없으니 빈공간없이 
     배경으로 꽉채우라는 명령어 */
-    background-size: cover; 
-    
+    background-size: cover;
+
     /*500px에 맞지 않을 경우 
     contain 배경이 잘리지 않게 하라는 명령어 */
     /* background-size: contain; */
@@ -19,41 +19,80 @@
     /* 위치조정하기 */
     /* 가운데 */
     background-position: center;
-   /* 스크롤시 배경 위치 조정가능 */
+    /* 스크롤시 배경 위치 조정가능 */
     /* background-attachment: fixed; */
-    
+
     /*박스 배경안에 필터 적용하기 글씨 안에도 필터가 입혀진다.*/
     filter: brightness(120%);
-   
+
     /* 배경에 overlay 검은색 틴트 주기 */
     /* background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(GREEN_.jpg) ; */
 
+    position: relative;
 }
-.main_text{
+
+.main_text {
     text-align: center;
     color: white;
 }
-.main_text h1{
+
+.main_text h1 {
     font-size: 40px;
     margin-top: 100px;
-  
-}
-.main_text h2{
-font-size: 14px;
-margin-top: 40px;
-padding: 20px;
-}
-.main_go_button{
-font-size: 35px;
-/* appearance: none; */
-margin-top: 32px;
-font-weight: bold;
 
-background-color: transparent;
-border: 0;
 }
-.main_go_button a{
+
+.main_text h2 {
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.main_go_button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    font-size: 35px;
+    /* appearance: none; */
+    /* margin-top: 32px; */
+    /* position:relative 란 내 원래 위치를 기준으로 이동하세요 라는 의미를 가진다 \
+그리고 float와 같은 기능*/
+    /* position: relative; */
+    /* position:static; 좌표 이동 불가능 
+position:fixed 현재 화면에 기준으로 이동하는 것이라고 생각하면 된다.
+position:absolute 내 부모태그가 기준으로 좌표를 이동한다.*/
+
+    top: 300px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0;  
+}
+.main_go_button a {
     text-decoration-line: none;
     color: rgb(60, 249, 85);
     text-shadow: 10px;
+}
+.main-sub-discription{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: gray;
+    width: 800px;
+    height: 300px;
+
+}
+.main-sub-discription h1{
+margin-top: 65px;
+font-size: 25px;
+color: black;
+}
+.main-sub-discription h2{
+    position: relative;
+    font-size: 15px ;
+    text-align: center;
+margin: 30px;
 }
