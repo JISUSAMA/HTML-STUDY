@@ -1,0 +1,21 @@
+.main_body{
+position: relative;
+width: 600px;
+height: 600px;
+background-color: aquamarine;
+}
+.wrap_block{
+width: 200px;
+height: 200px;
+background-color: rgb(170, 255, 12);
+}
+.sticky{
+position:sticky;
+background-color: aliceblue;
+top: 5px;
+}
+.other_block{
+background-color: blue;
+width: 500px;
+height: 500px;
+}
