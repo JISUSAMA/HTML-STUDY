@@ -1,5 +1,13 @@
-td{
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+td,th{
  border: 1px solid black;   
  width: 150px;
  text-align: center;
+}
+table{
+    /* 기본적으로 틈이 존재하는데 존재하는 틈을 지워줌 */
+    border-collapse: collapse;
 }
