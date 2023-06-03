@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: darkturquoise;
+ 
+    position: absolute;
+    min-width: 100vw;
+}
+table {
+    position: relative;
+    background-color: aliceblue;
+    width: 90%;
+    height: 750px;
+    border-collapse: collapse;
+    margin: auto;
+}
+th{
+    text-align: center;
+    border-bottom:1px solid rgb(88, 140, 148);
+}
+
+
+.Cart_Title {
+    font-weight: bold;
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+}
+
+.Cart_header tr{
+    width: 80px;
+    height: 50px;
+
+    .Cart_Item {
+        width: 70%;
+    }
+    .Cart_Amount {
+        width: 10%;
+    }   
+    .Cart_Price {
+        width: 10%;
+    }
+    .Cart_Total {
+        width: 10%;
+    }
+}
+
+.Cart_Body tr{
+height: 30px;
+}
+.Item_sub{
+    position: relative;
+    left: 30px;
+}
+.Cart_item_img{
+    float: left;
+    width:auto;
+    height:150px;
+    position: relative;
+    left: 10px;
+}
