@@ -7,6 +7,17 @@ th {
   padding: 15px;
   border-bottom: 1px solid #c2d3de;
 }
+/* 미리 만들어두면 편한 Utility class */
+.f-small {
+  font-size: 12px;
+}
+.f-mid {
+  font-size: 16px;
+}
+.f-lg {
+  font-size: 20px;
+}
+
 .cart-table thead {
   font-weight: bold;
 }
