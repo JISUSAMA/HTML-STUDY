@@ -26,7 +26,11 @@ th{
     width: 90%;
     margin: auto;
 }
-
+.Cart_finish_check{
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+}
 .Cart_header tr{
     width: 80px;
     height: 50px;
@@ -44,9 +48,21 @@ th{
         width: 10%;
     }
 }
-
+.Shopping_cart_amount{
+    text-align: end;
+    padding-right: 30px;
+}
+.Shopping_cart_price{
+    text-align: end;
+    padding-right: 30px;
+}
+.Shopping_cart_total{
+    text-align: end;
+    padding-right: 30px;
+}
 .Cart_Body tr{
-height: 30px;
+    position: relative;
+    height:150px;
 }
 .Item_sub{
     position: relative;
@@ -58,4 +74,8 @@ height: 30px;
     height:150px;
     position: relative;
     left: 10px;
+}
+.Cart_payment_button{
+    width: 100%;
+    height: 33px;
 }
