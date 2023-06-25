@@ -29,3 +29,48 @@ th {
 .table-long {
   width: 700px;
 }
+.btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+}
+
+/* 
+[pseudo-class]
+인터랙티브 버튼 만들때는 순서가 중요하다
+hover, focuse, active 순서로 작성 해야한다
+*/
+/* 마우스 올릴 떄 스타일: Hover(pseudo-class) */
+.btn:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+}
+/* 커서 찍혀 있을때 스타일: focus */
+.btn:focus {
+  background-color: cadetblue;
+}
+/* 클릭중 스타일: Active */
+.btn:active {
+  background-color: darkcyan;
+  border: 2px solid black;
+}
+.input-test {
+  font-size: 20px;
+}
+.input-test:focus {
+  border: 2px solid red;
+}
+.custom-link {
+  text-decoration: none;
+}
+/* 방문전 링크 스타일링 : link 
+방문 후 링크 스타일링 : visited*/
+.custom-link:link {
+  color: black;
+}
+.custom-link:visited {
+  color: rebeccapurple;
+}
