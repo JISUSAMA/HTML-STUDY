@@ -1,15 +1,27 @@
 .body{
     margin :0px;
-    width: 100%;
+    padding: 0px;
     background: black;
+    position: absolute;
 }
-.flex_container{
-width: 600px;
+.flex_content{
+column-count: 4;
 }
-.box_title{
-    font-weight: 20px;
-    font-size: 40px;
-}
-.box_item{
+.content_group{
 
+    text-align: center;
+}
+.content_title{
+    font-weight: bold;
+}
+/* 1200px / 992px / 768px / 576px  */
+@media screen and (max-width: 768px){
+    .flex_content{
+        column-count: 2;
+    }
+}
+@media screen and (max-width: 576px){
+    .flex_content{
+        column-count: 1;
+    }
 }
