@@ -51,7 +51,7 @@ margin: 1px;
 .logo-container{
     width: auto;
     height: 80px;
-    background-color:darkmagenta ;
+    background-color:rgb(139, 0, 44) ;
     display: flex;
     align-items: center;
 }
