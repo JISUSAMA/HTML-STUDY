@@ -85,6 +85,7 @@ position:absolute 내 부모태그가 기준으로 좌표를 이동한다.*/
 }
 .main_go_button a {
     position: relative;
+
     text-decoration-line: none;
     color: rgb(60, 249, 85);
     text-shadow: 10px;
@@ -112,10 +113,16 @@ color: black;
     text-align: center;
     box-sizing: border-box;
 margin: 30px;
-
+}
+/* 사람들이 많이사용하는 breakpoint값을 사용하는게 좋음 */
+@media screen and (max-width: 1200px){
+    .main_title{
+font-size:30px;
+    }
 }
 @media screen and (max-width: 600px){
     .main_title{
 font-size:10px;
+
     }
 }
