@@ -1,19 +1,59 @@
 .body{
     margin :0px;
-    padding: 0px;
-    background: black;
+    box-sizing: border-box;
     position: absolute;
+
 }
 .flex_content{
 column-count: 4;
 }
 .content_group{
 
+    padding: 10px;
     text-align: center;
+
 }
 .content_title{
     font-weight: bold;
 }
+
+.shop-bg{
+    background-color: #eee;
+}
+.shop-contain{
+    display: flex;
+width: 90%;
+margin: auto;
+}
+.style-position-relative{
+    position: relative;
+
+}
+.overlay {
+    /* 붕띄워주는 역할 */
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    opacity: 0;
+    /* 위의 값이 변하면 서서히 변경해달라는 코드 */
+    transition: all 1s;
+    transition-timing-function: cubic-bezier();
+}
+.overlay:hover{
+    opacity: 1;
+}
+.shop-item img{
+    width: 100%;
+    display: block;
+}
+.shop-item{
+  
+    width: 33%;
+    padding: 10px;
+
+}
+/* 미디어 쿼리는 항상 밑에있어야 좋음 */
 /* 1200px / 992px / 768px / 576px  */
 @media screen and (max-width: 768px){
     .flex_content{
