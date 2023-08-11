@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+.Layout-1-base {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(108, 108, 247);
+  height: 400px;
+}
+.Layout-1-1-base {
+  width: 741px;
+  padding-left: 100px;
+  padding-top: 50px;
+  color: white;
+}
+.Layout-1-1-base button {
+  position: absolute;
+  background-color: rgb(48, 47, 47);
+  color: white;
+  width: 100px;
+  height: 41px;
+  font-size: 16px;
+  border: 0px;
+}
+.Layout-1-1-base img {
+  width: 280px;
+  bottom: 0px;
+}
+.Layout-1-2-wrap {
+  height: 200px;
+}
+.Layout-1-2-base {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Layout-1-2-base button {
+  border: 0px;
+  color: white;
+  background-color: darkslategrey;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+}
+.Layout-2-base {
+  background-color: rgb(87, 87, 175);
+  height: 300px;
+  margin: 0px;
+}
+.Layout-2-base .Offer-base-title {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+.Layout-2-base .Offer-base {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  columns: 4;
+}
+.Layout-2-base .Offer-group {
+  text-align: center;
+}
+.Layout-2-base .icon-base {
+  background-color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Layout-2-base i {
+  color: rgb(87, 87, 175);
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Layout-3-base {
+}
+.stationary-wrap {
+  columns: 2;
+  width: 100%;
+}
+.stationary-img {
+}
+.stationary-img img {
+  width: 100%;
+  display: inline;
+}
+.stationary-img .portfolio-item-text {
+  position: relative;
+}
+.Layout-4-base {
+  height: 200px;
+}
