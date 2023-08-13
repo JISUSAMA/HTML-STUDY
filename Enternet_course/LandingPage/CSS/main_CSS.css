@@ -1,6 +1,7 @@
 body {
   width: 100%;
-  margin: 0 auto;
+  margin: 0px;
+  box-sizing: border-box;
 }
 .Layout-1-base {
   position: relative;
@@ -95,11 +96,29 @@ body {
 }
 .stationary-img img {
   width: 100%;
-  display: inline;
 }
 .stationary-img .portfolio-item-text {
   position: relative;
 }
 .Layout-4-base {
   height: 200px;
+}
+@media screen and (max-width: 992px) {
+  .Layout-1-base {
+    height: 800px;
+    display: block;
+    overflow: hidden;
+    background-color: rgb(108, 108, 247);
+    height: 400px;
+  }
+  .Layout-1-1-base {
+    float: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 42px;
+  }
+  .Layout-1-1-base button {
+    text-align: center;
+  }
 }
