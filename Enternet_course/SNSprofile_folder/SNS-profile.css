@@ -1,0 +1,14 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: #9c9c9c;
+}
+.layout_grup_back {
+  position: absolute;
+  background-color: white;
+}
+.layout_grup {
+  background-color: rgb(70, 60, 60);
+
+  width: 90%;
+}
